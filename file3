@@ -1,0 +1,74 @@
+Introduction to Linux and shells
+What is Linux?
+Linux is an operating system, like macOS or Windows.
+
+It is also the most popular Open Source operating system, and it gives you a lot of freedom.
+
+It powers the vast majority of the servers that compose the Internet. It's the base upon which everything is built. But not just that. Android is based on (a modified version of) Linux.
+
+The Linux "core" (called a kernel) was born in 1991 in Finland, and it has come a really long way from its humble beginnings. It went on to be the kernel of the GNU Operating System, creating the duo GNU/Linux.
+
+There's one thing about Linux that corporations like Microsoft, Apple, and Google will never be able to offer: the freedom to do whatever you want with your computer.
+
+They're actually going in the opposite direction, building walled gardens, especially on the mobile side.
+
+Linux is the ultimate freedom.
+
+It is developed by volunteers, some paid by companies that rely on it, some independently. But there's no single commercial company that can dictate what goes into Linux, or the project's priorities.
+
+You can also use Linux as your day to day computer. I use macOS because I really enjoy the applications and design (and I also used to be an iOS and Mac apps developer). But before using macOS I used Linux as my main computer Operating System.
+
+No one can dictate which apps you can run, or "call home" with apps that track you, your position, and more.
+
+Linux is also special because there's not just "one Linux", like is the case with Windows or macOS. Instead, we have distributions.
+
+A "distro" is made by a company or organization and packages the Linux core with additional programs and tooling.
+
+For example you have Debian, Red Hat, and Ubuntu, probably the most popular distributions.
+
+But many, many more exist. You can create your own distribution, too. But most likely you'll use a popular one that has lots of users and a community of people around it. This lets you do what you need to do without losing too much time reinventing the wheel and figuring out answers to common problems.
+
+Some desktop computers and laptops ship with Linux preinstalled. Or you can install it on your Windows-based computer, or on a Mac.
+
+But you don't need to disrupt your existing computer just to get an idea of how Linux works.
+
+I don't have a Linux computer.
+
+If you use a Mac, you just need to know that under the hood macOS is a UNIX Operating System. It shares a lot of the same ideas and software that a GNU/Linux system uses, because GNU/Linux is a free alternative to UNIX.
+
+UNIX is an umbrella term that groups many operating systems used in big corporations and institutions, starting from the 70's
+
+The macOS terminal gives you access to the same exact commands I'll describe in the rest of this handbook.
+
+Microsoft has an official Windows Subsystem for Linux which you can (and should!) install on Windows. This will give you the ability to run Linux in a very easy way on your PC.
+
+But the vast majority of the time you will run a Linux computer in the cloud via a VPS (Virtual Private Server) like DigitalOcean.
+
+What is a Linux shell?
+A shell is a command interpreter that exposes an interface to the user to work with the underlying operating system.
+
+It allows you to execute operations using text and commands, and it provides users advanced features like being able to create scripts.
+
+This is important: shells let you perform things in a more optimized way than a GUI (Graphical User Interface) could ever possibly let you do. Command line tools can offer many different configuration options without being too complex to use.
+
+There are many different kind of shells. This post focuses on Unix shells, the ones that you will find commonly on Linux and macOS computers.
+
+Many different kind of shells were created for those systems over time, and a few of them dominate the space: Bash, Csh, Zsh, Fish and many more!
+
+All shells originate from the Bourne Shell, called sh. "Bourne" because its creator was Steve Bourne.
+
+Bash means Bourne-again shell. sh was proprietary and not open source, and Bash was created in 1989 to create a free alternative for the GNU project and the Free Software Foundation. Since projects had to pay to use the Bourne shell, Bash became very popular.
+
+If you use a Mac, try opening your Mac terminal. By default it runs ZSH (or, pre-Catalina, Bash).
+
+You can set up your system to run any kind of shell – for example I use the Fish shell.
+
+Each single shell has its own unique features and advanced usage, but they all share a common functionality: they can let you execute programs, and they can be programmed.
+
+In the rest of this handbook we'll see in detail the most common commands you will use.
+
+The Linux man command
+
+The first command I'll introduce will help you understand all the other commands.
+
+Every time I don't know how to use a command, I type man <command> to get the manual:
