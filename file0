@@ -1,3 +1,16 @@
-hjdggyfsyugug
-bADCHDSGJ<YG
-gdsjfj
+hi i am fariyaj shaikh i am learning git and i wirte the same comman git cammand or steps
+1 - install gitbash from website
+2 - crete github account 
+3 - in linux use this cammand $ apt install git
+4 - check version by using $ git --version
+5 - frist $ git init --initilising git from local repositry
+6 - git config --global user.email "____"
+7 - git config --global user.name "____"
+8 - git config --list ---showing the all file
+9 - git clone <url> -- download code or file from website
+10 - git add . -- add all or git add <name of file>
+11 -git commit -m "write down reson  why do to update this code or file" <name of file> ---save the file in local repo.
+12 - git push <name of file> -- send the file from local repo. to the github account
+this all cammand what i learn from lecture video
+after we learn cammand so we can update
+
