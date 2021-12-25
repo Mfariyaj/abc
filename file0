@@ -10,7 +10,25 @@ hi i am fariyaj shaikh i am learning git and i wirte the same comman git cammand
 9 - git clone <url> -- download code or file from website
 10 - git add . -- add all or git add <name of file>
 11 -git commit -m "write down reson  why do to update this code or file" <name of file> ---save the file in local repo.
-12 - git push <name of file> -- send the file from local repo. to the github account
+12 - git log ---check for commit
+13 - git log --online
+14 - git push <name of file> -- send the file from local repo. to the github account
+15 - git branch --check yhe current barnch 
+16 - git branch <name of branch> creat new branch
+17 - git checkout <name of branch> switched branch
+18 - git branch -d <name of branch> del.?remove branch
+19 - git branch -D <name of branch> del.?remove branch
+20 - git checkout master -- switched to master branch
+21 - git merge <name of branch> merge branch to master
+22 - git log ---verfiy the merge
+23 - git stash 
+24 - git stash list ---> checking list of stash
+25 - git stash apply stasj@{}
+26 - git stash clear ---> remove all stash file
+27 - git reset <name of file> ---> file is take back from satging area
+28 - git reset . --->file is take back from satging area
+29 - git reset --hard ---->file is take back from satging area also the working area
+30 - git reset --soft
 this all cammand what i learn from lecture video
 after we learn cammand so we can update
 
