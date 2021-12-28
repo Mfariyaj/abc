@@ -29,6 +29,12 @@ hi i am fariyaj shaikh i am learning git and i wirte the same comman git cammand
 28 - git reset . --->file is take back from satging area
 29 - git reset --hard ---->file is take back from satging area also the working area
 30 - git reset --soft
+31 - git revert <name of commit>
+32 - git -n --they ask to remove non usable file
+33 - git -f --remove non usable file with forcefullly
+34 - git tag <commit name> -- they give tag with proper meaning
+35 - git tag --listing all tag 
+36 - git show <commit name/tag name>
 this all cammand what i learn from lecture video
 after we learn cammand so we can update
 
